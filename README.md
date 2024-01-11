@@ -19,6 +19,9 @@ The ft_ping project includes the following options:
 - `-v`: Verbose mode. Displays additional information about the packets sent and received.
 - `-c <count>`: Specifies the number of packets to send. The default value is 5.
 - `-t <ttl>`: Specifies the time-to-live (TTL) value for the packets sent. The default value is 64.
+- `-R`: Record route. Includes the RECORD_ROUTE option in the ECHO_REQUEST packet and displays the route buffer on returned packets.
+- `-d`: Debug mode. Displays additional debug information for each packet, aiding in troubleshooting network issues.
+- `-q`: Quiet mode. Suppresses most output, showing only the final results. Useful for discreet testing.
 
 ## About the Ping Command
 The ping command is a network administration utility used to test the reachability of a host on an Internet Protocol (IP) network. It also measures the round-trip time for the messages sent from the originating host to a destination computer.
